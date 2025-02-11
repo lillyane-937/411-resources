@@ -29,4 +29,9 @@ foolillyane@lillysurface:~/411-resources/HW/HW2 Docker/flask$
   "status": 200
 }
 
-//
+// results after crashing the container
+
+CONTAINER ID   NAMES              STATUS
+14f5975f4fe4   crazy_kowalevski   Up 8 seconds (health: starting)
+CONTAINER ID   NAMES              STATUS
+14f5975f4fe4   crazy_kowalevski   Up About a minute (unhealthy)
