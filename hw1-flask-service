@@ -21,3 +21,12 @@ Press CTRL+C to quit
 lillyane@lillysurface:~/411-resources/HW/HW2 Docker/flask$ curl "http://localhost:5002/repeat?input=hello"
 hellolillyane@lillysurface:~/411-resources/HW/HW2 Docker/flask$ curl "http://localhost:5002/repeat?input=foo"
 foolillyane@lillysurface:~/411-resources/HW/HW2 Docker/flask$ 
+
+// ouput when I run curl on health and healthcheck : curl "http://localhost:5002/health", curl "http://localhost:5002/healthcheck"
+
+{
+  "body": "OK",
+  "status": 200
+}
+
+//
