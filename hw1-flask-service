@@ -16,3 +16,8 @@ Press CTRL+C to quit
   "response": "Hello, World!",
   "status": 200
 }
+
+// output of task for Route W/ Get Parameter
+lillyane@lillysurface:~/411-resources/HW/HW2 Docker/flask$ curl "http://localhost:5002/repeat?input=hello"
+hellolillyane@lillysurface:~/411-resources/HW/HW2 Docker/flask$ curl "http://localhost:5002/repeat?input=foo"
+foolillyane@lillysurface:~/411-resources/HW/HW2 Docker/flask$ 
