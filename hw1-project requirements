@@ -1,0 +1,37 @@
+1. Agile
+
+Theme: Get GiggleGit demo into a stable enough alpha to start onboarding some adventurous clients
+
+Epic: Onboarding experience 
+
+
+1. User story 1: As a vanilla git power-user that has never seen GiggleGit before, I want to be able to easily use a version control system to merge memes.
+
+User Story 2: As a team lead onboarding an experienced GiggleGit user, I want to be able to keep track of my past meme merges so I can keep track of changes.
+
+2. User story: As a user I want to allow only team members to collaborate on my repository so they can share and mergre their memes onto one repo.
+Task: Integrate a feautures that all users to pull/copy and push changes onto a repo created by another user. 
+Ticket 1: Use a distributed version control system
+Allow users to clone and pull any new changes made to the repo after they cloned it and allow users to push any changes they make to the repo and commit a message that describes the changes so everyone with access to the repo can see. 
+
+Ticket 2: Control who can access the repo
+- Grant users the ability to make their repos private and give certain users access to the repo by adding them as "collaborators" and only people added as collaborators can clone and pull from the repo
+
+This is not a user story. Why not? What is it?
+
+3. It's a functional requirement. 
+
+
+
+2. Formal Requirements
+
+Goal: Create a vanilla interface capable of syncing with a snicker.
+Non-goal: Reintegrate the vanilla interface capable of syncing with base GiggleGit packages so users can merge changes with a distinct snicker instead of silence. 
+Non-functional requirement 1: Managing Snickering concepts
+Functional Requirements:
+- Allow PMs can have access to the snickering that is used.
+- Give PMs the ability to create or delete snicking concepts used in the repo.
+Non-functional Requirements: Manage access to the repo. 
+functional Requirements: 
+- Manually add users to the repos as collaborators
+- Make repos public or private, if its public anyone can have access if private only collaborators can have access.
