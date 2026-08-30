@@ -1,0 +1,37 @@
+/ output when I run the container
+* Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://172.17.0.2:5002
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 905-205-506
+
+
+// output of the curl command
+{
+  "response": "Hello, World!",
+  "status": 200
+}
+
+// output of task for Route W/ Get Parameter
+lillyane@lillysurface:~/411-resources/HW/HW2 Docker/flask$ curl "http://localhost:5002/repeat?input=hello"
+hellolillyane@lillysurface:~/411-resources/HW/HW2 Docker/flask$ curl "http://localhost:5002/repeat?input=foo"
+foolillyane@lillysurface:~/411-resources/HW/HW2 Docker/flask$ 
+
+// ouput when I run curl on health and healthcheck : curl "http://localhost:5002/health", curl "http://localhost:5002/healthcheck"
+
+{
+  "body": "OK",
+  "status": 200
+}
+
+// results after crashing the container
+
+CONTAINER ID   NAMES              STATUS
+14f5975f4fe4   crazy_kowalevski   Up 8 seconds (health: starting)
+CONTAINER ID   NAMES              STATUS
+14f5975f4fe4   crazy_kowalevski   Up About a minute (unhealthy)
